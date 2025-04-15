@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(to right,orange,red);
+    color: white;
+    justify-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    gap: 200px;
+}
+
+nav{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+nav ul{
+    padding: 20px;
+    list-style: none;
+    width: 700px;
+    gap: 200px;
+    display: flex;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul a:hover{
+    color: black;
+}
+
+#input-section{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: grid;
+    gap: 20px;
+    width: 60%;
+    height: 450px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#input-section button{
+    background-color: rgb(243, 173, 52);
+    cursor: pointer;
+    width: 30%;
+    height: 20%;
+    justify-self: center;
+    border-radius: 15px;
+}
+
+#input-section button:hover{
+    background-color: rgb(230, 82, 28);
+}
+
+textarea{
+    margin: 20px;
+    width: 90%;
+    height: 90%;
+
+}
+
+#about-section{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 80%;
+    text-align: center;
+}
+
+#Contact-section{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 80%;
+    text-align: center;
+}
+
+#Contact-section a{
+    text-decoration: none;
+}
+
+
+#container{
+    background: whitesmoke;
+    color: black;
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+
+}
+
+#note-item{
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+
+#container ul{
+    list-style: none;
+}
+
+.container button{
+    padding: 10px;
+    width: 100%;
+    justify-self: center;
+    background-color: rgb(207, 87, 35);
+    cursor: pointer;
+}
+
+.container button:hover{
+    background: yellow;
+}
+
+@media(max-width:640px){
+
+    header{
+        display: flex;
+        gap: 50px;
+    }
+
+    nav ul{
+        padding: 20px;
+        list-style: none;
+        width: 300px;
+        gap: 30px;
+        display: flex;
+    }
+
+}
